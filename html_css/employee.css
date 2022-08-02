@@ -1,0 +1,197 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 300px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.35);
+  opacity: 1;
+  height: 100%;
+}
+
+aside {
+  display: flex;
+  background: #03aeee;
+  border-radius: 50px 0px 0px 50px;
+  display: flex;
+  margin-top: 23px;
+  margin-left: 13px;
+}
+
+#kv_logo {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 46px;
+  margin-right: 46px;
+}
+
+.sidebar_item_1 {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.person_image {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 15px;
+}
+
+div.person_image > img {
+  max-height: 100%;
+  max-width: 100%;
+  padding: 5px;
+}
+
+.sidebar_list_1 {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+main {
+  position: calc(100%-100px);
+  background-color: #fafafa;
+  margin-left: 323px;
+}
+
+.empty_area {
+  width: 100px;
+  height: 80px;
+}
+
+.heading_section {
+  height: 80px;
+  background-color: #fdfdfd;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  margin-right: 25px;
+  width: calc(100%-70px);
+}
+
+.form_section {
+  margin-top: 20px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.35);
+  padding: 2%;
+  height: 450;
+  margin-right: 25px;
+}
+
+.form_data {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.employee_info {
+  width: 33%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: block;
+  font-size: 15px;
+  height: 45px;
+}
+
+.employee_data {
+  width: 80%;
+  height: 90%;
+  /* margin-top: 5px; */
+  border-radius: 5px;
+  background-color: #fafafa;
+  border-width: 0.5px solid #d9d9d9;
+  box-shadow: inset;
+  padding: 5px;
+  padding-left: 10px;
+  border: 1px solid #d9d9d9;
+  color: #8b8d9d;
+  display: block;
+  margin: 5px 0px 5px 0px;
+  font-size: 15px;
+}
+
+#default {
+  color: #8b8d9d;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.detail {
+  display: block;
+  margin: 5px 0px 5px 0px;
+  font-size: 15px;
+}
+
+.employee_data_field_inside {
+  background-color: #fafafa;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  border-width: 0.5px solid #d9d9d9;
+  box-shadow: inset;
+  width: 80%;
+  height: 90%;
+  font-size: 14px;
+  color: #8b8d9d;
+  margin: 5px 0px;
+  padding: 5px;
+  padding-left: 10px;
+  margin: 5px 0px;
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+  outline: none;
+}
+
+.browse {
+  font-size: 12px;
+  border: 1px solid #d9d9d9;
+  width: 20px;
+  position: relative;
+  justify-content: space-between;
+  border-width: 1px;
+  padding: 5px;
+  margin: 2px;
+  border-width: 1px;
+  background-color: #d9d9d9;
+  box-shadow: 0px 3px 6px #9d9d9d;
+  border-radius: 6px;
+  background: #fdfdfd 0% 0% no-repeat padding-box;
+}
+
+.browsebutton {
+  margin-top: 4px;
+}
+
+.buttons {
+  margin: 10px 10px 10px 0px;
+}
+
+#submit {
+  background-color: #03aeee;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  border-width: thin;
+  box-shadow: 0px 3px 6px 0px #bfeeff;
+}
+
+#cancel {
+  background-color: #ffffff;
+  color: #8a8c8f;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  border-width: thin;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}

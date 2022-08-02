@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="employee.css" />
+    <script src="employee_script.js"></script>
+  </head>
+
+  <body>
+    <nav>
+        <header id="kv_logo">
+            <img src="kv logo.png" alt="KeyValue logo" />
+        </header>
+    <aside>
+        <div class="sidebar_item_1">
+            <div class="person_image">
+              <img src="List.png" alt="Person Logo" />
+            </div>
+            <a href="" class="sidebar_list_1">Employee List</a>
+          </div>
+        </div>
+    </aside>    
+    </nav>
+    <main>
+        <section class="empty_area"></section>
+        <section class="heading_section">
+            <h1>Create Employee</h1>
+          </section>
+         
+          <section class="form_section">
+            <form class="form_data" action="#">
+                <div class="employee_info">
+                    <label for="ename">Employee Name</label><br>
+                    <input  class="employee_data" type="text" id="ename" placeholder="Employee Name" name="ename" />
+                </div>
+                <div class="employee_info">
+                    <label for="eid">Employee ID</label><br>
+                    <input  class="employee_data" type="text" id="eid" placeholder="Employee Name" name="eid"/>
+                </div>
+                <div class="employee_info">
+                    <label for="jod">Joining Date</label><br>
+                    <input  class="employee_data" type="text" id="jod" placeholder="Joining Date" name="jod"/>
+                </div>
+                <div class="employee_info">
+                    <label for="role">Role</label><br>
+                    <select class="employee_data">
+                        <option value="" disabled selected>Choose Role</option>
+                        <option value="Role 1">Role 1</option>
+                        <option value="Role 2">Role 2</option>
+                    </select>
+                </div>
+                <div class="employee_info">
+                    <label for="status">Status</label><br>
+                    <select class="employee_data">
+                        <option value="" disabled selected>Status</option>
+                        <option value="Status 1">Status 1</option>
+                        <option value="Status 2">Status 2</option>
+                    </select>
+                </div>
+                <div class="employee_info">
+                    <label for="exp">Experience</label><br>
+                    <input  class="employee_data" type="text" id="exp" placeholder="Experience" name="exp"/>
+                </div>
+                <div class="employee_info">
+                    <label for="address">Address</label><br>
+                    <input  class="employee_data" type="text" id="address" placeholder="Address" name="address"/>
+                </div>
+                <div class="employee_info">
+                    <span class>Upload ID Proof</span>
+                    <div class="employee_data_field_inside">
+                      <span class="detail">Choose File</span>
+                      <div class="browsebutton">
+                        <label for="upload-id" class="browse">Browse</label>
+                        <input type="file" id="upload-id" placeholder="Choose File" hidden/>
+                      </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="submit" type="submit" onclick="validate()">
+                      Create
+                    </button>
+                    <button id="cancel" type="cancel">Cancel</button>
+                  </div>
+            </form>
+        </section>    
+    </main>
+  </body>
+</html>
